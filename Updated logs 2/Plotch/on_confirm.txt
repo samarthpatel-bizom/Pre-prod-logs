@@ -9,14 +9,14 @@
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "bap_id": "www.firstforwardondc.com",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "transaction_id": "3cda8735-4f9a-428a-ba8e-591555567e99",
-        "message_id": "f9a2db57-3c04-42d9-a94c-e2675412782a",
-        "timestamp": "2022-09-08T13:00:41.248Z",
+        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
+        "message_id": "05c6d8ce-b77d-4ea3-80ec-3607933d371e",
+        "timestamp": "2022-09-09T08:23:47.534Z",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
-            "id": "ca995b32-74fa-40be-83d2-27ca760ff7c6",
+            "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323",
             "state": "Created",
             "billing": {
                 "address": {
@@ -28,11 +28,11 @@
                     "name": "74/A Bangalroe",
                     "state": "KARNATAKA"
                 },
-                "created_at": "2022-09-08T18:30:41",
+                "created_at": "2022-09-09T13:53:47",
                 "email": "samarth@gmail.com",
                 "name": "SamrthPatel",
                 "phone": "9898141644",
-                "updated_at": "2022-09-08T18:30:41"
+                "updated_at": "2022-09-09T13:53:47"
             },
             "fulfillments": [
                 {
@@ -54,7 +54,7 @@
                             "gps": "12.9698066,77.7499632"
                         }
                     },
-                    "id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "tracking": false,
                     "type": "Delivery",
                     "customer": {
@@ -95,7 +95,7 @@
             },
             "items": [
                 {
-                    "fulfillment_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+                    "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "id": "106",
                     "quantity": {
                         "count": 1
@@ -110,10 +110,10 @@
                 },
                 "status": "NOT-PAID",
                 "collected_by": "BPP",
-                "@ondc/org/withholding_amount": 0,
-                "@ondc/org/return_window": 0,
+                "@ondc/org/withholding_amount": "0",
+                "@ondc/org/return_window": "0",
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/buyer_app_finder_fee_amount": 3,
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
                 "@ondc/org/settlement_basis": "P2D",
                 "@ondc/org/settlement_window": "P2D"
             },
@@ -141,18 +141,19 @@
 
 {
     "context": {
-        "transaction_id": "3cda8735-4f9a-428a-ba8e-591555567e99",
+        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
         "country": "IND",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "city": "std:080",
-        "message_id": "f9a2db57-3c04-42d9-a94c-e2675412782a",
+        "message_id": "05c6d8ce-b77d-4ea3-80ec-3607933d371e",
         "core_version": "1.0.0",
+        "ttl": "PT30S",
         "bap_id": "www.firstforwardondc.com",
         "domain": "nic2004:52110",
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "action": "on_confirm",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "timestamp": "2022-09-08T13:00:41.491Z"
+        "timestamp": "2022-09-09T08:23:49.302Z"
     },
     "message": {
         "order": {
@@ -176,6 +177,12 @@
                                     "https://617778.smushcdn.com/2413992/wp-content/uploads/2021/07/Bizom_logo_Blue-1060879244-1635316195620.png?lossy=1&strip=1&webp=1"
                                 ]
                             }
+                        },
+                        "time": {
+                            "range": {
+                                "start": "2022-09-09T08:33:53.000Z",
+                                "end": "2022-09-09T09:08:53.000Z"
+                            }
                         }
                     },
                     "end": {
@@ -194,9 +201,15 @@
                                 "state": "KARNATAKA"
                             },
                             "gps": "12.9698066,77.7499632"
+                        },
+                        "time": {
+                            "range": {
+                                "start": "2022-09-09T12:23:53.000Z",
+                                "end": "2022-09-09T12:23:53.000Z"
+                            }
                         }
                     },
-                    "id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "type": "Delivery",
                     "tracking": true
                 }
@@ -229,7 +242,7 @@
                     "value": "284.97"
                 }
             },
-            "updated_at": "2022-09-08T13:00:42.498Z",
+            "updated_at": "2022-09-09T08:23:50.975Z",
             "provider": {
                 "locations": [
                     {
@@ -239,11 +252,11 @@
                 "id": "3"
             },
             "payment": {
-                "@ondc/org/return_window": 0,
+                "@ondc/org/return_window": "0",
                 "@ondc/org/settlement_window": "P2D",
                 "@ondc/org/settlement_basis": "P2D",
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/withholding_amount": 0,
+                "@ondc/org/withholding_amount": "0",
                 "collected_by": "BPP",
                 "type": "POST-FULFILLMENT",
                 "params": {
@@ -251,9 +264,9 @@
                     "currency": "INR"
                 },
                 "status": "NOT-PAID",
-                "@ondc/org/buyer_app_finder_fee_amount": 3
+                "@ondc/org/buyer_app_finder_fee_amount": "3"
             },
-            "id": "ca995b32-74fa-40be-83d2-27ca760ff7c6",
+            "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323",
             "state": "Created",
             "items": [
                 {
@@ -261,7 +274,7 @@
                         "count": 1
                     },
                     "id": "106",
-                    "fulfillment_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d"
+                    "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
                 }
             ],
             "billing": {
@@ -274,10 +287,10 @@
                     "name": "74/A Bangalroe",
                     "state": "KARNATAKA"
                 },
-                "updated_at": "2022-09-08T18:30:41",
+                "updated_at": "2022-09-09T13:53:47",
                 "phone": "9898141644",
                 "name": "SamrthPatel",
-                "created_at": "2022-09-08T18:30:41",
+                "created_at": "2022-09-09T13:53:47",
                 "email": "samarth@gmail.com"
             }
         }

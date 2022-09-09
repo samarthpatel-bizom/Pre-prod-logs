@@ -1,10 +1,10 @@
 {
     "context": {
-        "transaction_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
         "bpp_id": "uat.grab.in",
         "country": "IND",
         "city": "std:080",
-        "message_id": "13a7e75a-7ce6-4b71-b89d-57680cae6369",
+        "message_id": "90a6e4cf-2264-4064-aab1-743d9d29f873",
         "ttl": "PT30S",
         "core_version": "1.0.0",
         "bap_id": "stagingapigateway.bizom.in/ondc",
@@ -12,7 +12,7 @@
         "bpp_uri": "https://uat.grab.in/beckn/bpp/",
         "action": "confirm",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-08T13:00:46.699Z"
+        "timestamp": "2022-09-09T08:23:53.021Z"
     },
     "message": {
         "order": {
@@ -59,7 +59,7 @@
                             "gps": "12.969807,77.749963"
                         }
                     },
-                    "id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "type": "Prepaid",
                     "tracking": true,
                     "tags": {
@@ -96,11 +96,11 @@
                         "quantity": {
                             "measure": {
                                 "unit": "Kilogram",
-                                "value": 0.34425
+                                "value": "0.34425"
                             },
                             "count": 1
                         },
-                        "category_id": "Grocery",
+                        "category_id": "Packaged Food",
                         "price": {
                             "currency": "INR",
                             "value": "204.97"
@@ -108,18 +108,18 @@
                         "descriptor": {
                             "name": "LuvIt ChocoPops Pack of 1 - 7.65gx45"
                         },
-                        "fulfillment_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d"
+                        "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
                     }
                 ],
                 "order": {
                     "weight": {
                         "unit": "Kilogram",
-                        "value": "0.34424999356269836"
+                        "value": "0.34425"
                     },
-                    "id": "ca995b32-74fa-40be-83d2-27ca760ff7c6"
+                    "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323"
                 }
             },
-            "id": "KVdRYNmaljhu0VKAJGcTVOlwkbngVJK5uoNm2W6wt2k=",
+            "id": "yIurv1kyFL6y14G+J5hpjA6XrHMTXp4MBqukjug9Ktg=",
             "items": [
                 {
                     "category_id": "Same Day Delivery",
@@ -134,13 +134,14 @@
 }
 
 
+
 {
     "context": {
-        "transaction_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
         "bpp_id": "uat.grab.in",
         "country": "IND",
         "city": "std:080",
-        "message_id": "13a7e75a-7ce6-4b71-b89d-57680cae6369",
+        "message_id": "90a6e4cf-2264-4064-aab1-743d9d29f873",
         "ttl": "PT30S",
         "core_version": "1.0.0",
         "bap_id": "stagingapigateway.bizom.in/ondc",
@@ -148,7 +149,7 @@
         "bpp_uri": "https://uat.grab.in/beckn/bpp/",
         "action": "on_confirm",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-08T13:00:47.000Z"
+        "timestamp": "2022-09-09T08:23:53.000Z"
     },
     "message": {
         "order": {
@@ -157,20 +158,20 @@
                     "start": {
                         "time": {
                             "range": {
-                                "start": "2022-09-08T13:10:47.000Z",
-                                "end": "2022-09-08T13:45:47.000Z"
+                                "start": "2022-09-09T08:33:53.000Z",
+                                "end": "2022-09-09T09:08:53.000Z"
                             }
                         }
                     },
                     "end": {
                         "time": {
                             "range": {
-                                "start": "2022-09-08T17:00:47.000Z",
-                                "end": "2022-09-08T17:00:47.000Z"
+                                "start": "2022-09-09T12:23:53.000Z",
+                                "end": "2022-09-09T12:23:53.000Z"
                             }
                         }
                     },
-                    "id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "type": "Prepaid",
                     "tracking": true,
                     "tags": {
@@ -207,11 +208,11 @@
                         "quantity": {
                             "measure": {
                                 "unit": "Kilogram",
-                                "value": 0.34425
+                                "value": "0.34425"
                             },
                             "count": 1
                         },
-                        "category_id": "Grocery",
+                        "category_id": "Packaged Food",
                         "price": {
                             "currency": "INR",
                             "value": "204.97"
@@ -219,18 +220,18 @@
                         "descriptor": {
                             "name": "LuvIt ChocoPops Pack of 1 - 7.65gx45"
                         },
-                        "fulfillment_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d"
+                        "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
                     }
                 ],
                 "order": {
                     "weight": {
                         "unit": "Kilogram",
-                        "value": "0.34424999356269836"
+                        "value": "0.34425"
                     },
-                    "id": "ca995b32-74fa-40be-83d2-27ca760ff7c6"
+                    "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323"
                 }
             },
-            "id": "KVdRYNmaljhu0VKAJGcTVOlwkbngVJK5uoNm2W6wt2k=",
+            "id": "yIurv1kyFL6y14G+J5hpjA6XrHMTXp4MBqukjug9Ktg=",
             "items": [
                 {
                     "category_id": "Same Day Delivery",

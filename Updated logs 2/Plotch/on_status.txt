@@ -5,33 +5,34 @@
         "city": "std:080",
         "action": "status",
         "core_version": "1.0.0",
-        "transaction_id": "ed3ec921-e515-4aab-ab9e-158fb100dfb7",
-        "message_id": "1c16f795-e2e3-4f74-ba97-ad4257c45e51",
-        "timestamp": "2022-09-05T08:31:42.943Z",
+        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
+        "message_id": "64e9cad8-a5de-4023-94ad-1c9b58ce0ea8",
+        "timestamp": "2022-09-09T08:52:48.771Z",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "bap_id": "www.firstforwardondc.com",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/"
     },
     "message": {
-        "order_id": "e1a6892b-ef30-4ed7-805f-9fd79e5375d2"
+        "order_id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323"
     }
 }
 
 {
     "context": {
-        "transaction_id": "ed3ec921-e515-4aab-ab9e-158fb100dfb7",
+        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
         "country": "IND",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "city": "std:080",
+        "message_id": "64e9cad8-a5de-4023-94ad-1c9b58ce0ea8",
+        "core_version": "1.0.0",
+        "ttl": "PT30S",
+        "bap_id": "www.firstforwardondc.com",
         "domain": "nic2004:52110",
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "action": "on_status",
-        "message_id": "1c16f795-e2e3-4f74-ba97-ad4257c45e51",
-        "core_version": "1.0.0",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "timestamp": "2022-09-05T08:31:45.621Z",
-        "bap_id": "www.firstforwardondc.com"
+        "timestamp": "2022-09-09T08:52:51.742Z"
     },
     "message": {
         "order": {
@@ -68,7 +69,7 @@
                             "gps": "12.969807,77.749963"
                         }
                     },
-                    "id": "a6909a27-863e-4842-a675-6ff7388d5850",
+                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "state": {
                         "descriptor": {
                             "code": "Serviceable"
@@ -85,7 +86,7 @@
                         "@ondc/org/title_type": "item",
                         "title": "LuvIt ChocoPops Pack of 1 - 7.65gx45",
                         "price": {
-                            "value": "204",
+                            "value": "204.97",
                             "currency": "INR"
                         },
                         "@ondc/org/item_quantity": {
@@ -102,11 +103,11 @@
                     }
                 ],
                 "price": {
-                    "value": "284.0",
+                    "value": "284.9700012207031",
                     "currency": "INR"
                 }
             },
-            "updated_at": "2022-09-05T08:31:45.621Z",
+            "updated_at": "2022-09-09T08:52:51.742Z",
             "provider": {
                 "locations": [
                     {
@@ -116,21 +117,21 @@
                 "id": "3"
             },
             "payment": {
+                "@ondc/org/return_window": "0",
+                "@ondc/org/settlement_window": "P2D",
+                "@ondc/org/settlement_basis": "P2D",
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/withholding_amount": "0",
+                "collected_by": "BPP",
                 "type": "POST-FULFILLMENT",
                 "params": {
-                    "amount": "284.0",
+                    "amount": "284.97",
                     "currency": "INR"
                 },
                 "status": "NOT-PAID",
-                "collected_by": "BPP",
-                "@ondc/org/return_window": 0,
-                "@ondc/org/settlement_basis": "P2D",
-                "@ondc/org/settlement_window": "P2D",
-                "@ondc/org/withholding_amount": 0,
-                "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/buyer_app_finder_fee_amount": 3
+                "@ondc/org/buyer_app_finder_fee_amount": "3"
             },
-            "id": "e1a6892b-ef30-4ed7-805f-9fd79e5375d2",
+            "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323",
             "state": "Created",
             "items": [
                 {
@@ -138,7 +139,7 @@
                         "count": 1
                     },
                     "id": "106",
-                    "fulfillment_id": "a6909a27-863e-4842-a675-6ff7388d5850"
+                    "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
                 }
             ],
             "billing": {

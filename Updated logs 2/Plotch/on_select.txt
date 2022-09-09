@@ -9,9 +9,9 @@
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "bap_id": "www.firstforwardondc.com",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "transaction_id": "3cda8735-4f9a-428a-ba8e-591555567e99",
-        "message_id": "bbcaa2f1-f79d-4da7-a32f-691113d943f0",
-        "timestamp": "2022-09-08T12:58:10.294Z",
+        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
+        "message_id": "4dd8f452-d7c8-4aa9-bd00-5199cb985c10",
+        "timestamp": "2022-09-09T08:23:18.730Z",
         "ttl": "PT30S"
     },
     "message": {
@@ -50,18 +50,19 @@
 
 {
     "context": {
-        "transaction_id": "3cda8735-4f9a-428a-ba8e-591555567e99",
+        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
         "country": "IND",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "city": "std:080",
-        "message_id": "bbcaa2f1-f79d-4da7-a32f-691113d943f0",
+        "message_id": "4dd8f452-d7c8-4aa9-bd00-5199cb985c10",
         "core_version": "1.0.0",
+        "ttl": "PT30S",
         "bap_id": "www.firstforwardondc.com",
         "domain": "nic2004:52110",
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "action": "on_select",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "timestamp": "2022-09-08T12:58:13.102Z"
+        "timestamp": "2022-09-09T08:23:21.482Z"
     },
     "message": {
         "order": {
@@ -69,7 +70,7 @@
                 {
                     "@ondc/org/TAT": "PT45M",
                     "@ondc/org/category": "Same Day Delivery",
-                    "id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
                     "state": {
                         "descriptor": {
                             "name": "serviceable"
@@ -108,16 +109,18 @@
                 },
                 "ttl": "P1D"
             },
-            "updated_at": "2022-09-08T12:58:13.223Z",
+            "updated_at": "2022-09-09T08:23:21.869Z",
             "provider": {
                 "id": "3"
             },
             "items": [
                 {
                     "id": "106",
-                    "fulfillment_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d"
+                    "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
                 }
             ]
         }
     }
 }
+
+
