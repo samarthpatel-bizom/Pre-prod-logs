@@ -5,26 +5,27 @@
         "city": "std:080",
         "action": "status",
         "core_version": "1.0.0",
-        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
-        "message_id": "64e9cad8-a5de-4023-94ad-1c9b58ce0ea8",
-        "timestamp": "2022-09-09T08:52:48.771Z",
+        "transaction_id": "dd3c4f79-70aa-4cab-9172-7abcf3c89de2",
+        "message_id": "5b41132c-6761-4412-b0f6-45e9c34ad3d6",
+        "timestamp": "2022-09-10T08:52:47.793Z",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "bap_id": "www.firstforwardondc.com",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/"
     },
     "message": {
-        "order_id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323"
+        "order_id": "1dc28ee2-20f7-4541-8c18-fe39f4c24b87"
     }
 }
 
+
 {
     "context": {
-        "transaction_id": "3d6f7d3c-9674-4eff-b98a-6b1d13a0167c",
+        "transaction_id": "dd3c4f79-70aa-4cab-9172-7abcf3c89de2",
         "country": "IND",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "city": "std:080",
-        "message_id": "64e9cad8-a5de-4023-94ad-1c9b58ce0ea8",
+        "message_id": "5b41132c-6761-4412-b0f6-45e9c34ad3d6",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "www.firstforwardondc.com",
@@ -32,7 +33,7 @@
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "action": "on_status",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "timestamp": "2022-09-09T08:52:51.742Z"
+        "timestamp": "2022-09-10T08:52:50.581Z"
     },
     "message": {
         "order": {
@@ -69,7 +70,7 @@
                             "gps": "12.969807,77.749963"
                         }
                     },
-                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+                    "id": "badda8fb-10d2-4481-b68b-441c5c92a342",
                     "state": {
                         "descriptor": {
                             "code": "Serviceable"
@@ -103,11 +104,11 @@
                     }
                 ],
                 "price": {
-                    "value": "284.9700012207031",
+                    "value": "284.97",
                     "currency": "INR"
                 }
             },
-            "updated_at": "2022-09-09T08:52:51.742Z",
+            "updated_at": "2022-09-10T08:52:50.581Z",
             "provider": {
                 "locations": [
                     {
@@ -118,10 +119,10 @@
             },
             "payment": {
                 "@ondc/org/return_window": "0",
-                "@ondc/org/settlement_window": "P2D",
-                "@ondc/org/settlement_basis": "P2D",
-                "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/withholding_amount": "0",
+                "@ondc/org/settlement_window": "",
+                "@ondc/org/settlement_basis": "",
+                "@ondc/org/buyer_app_finder_fee_type": "Percent",
+                "@ondc/org/withholding_amount": "0.0",
                 "collected_by": "BPP",
                 "type": "POST-FULFILLMENT",
                 "params": {
@@ -129,9 +130,9 @@
                     "currency": "INR"
                 },
                 "status": "NOT-PAID",
-                "@ondc/org/buyer_app_finder_fee_amount": "3"
+                "@ondc/org/buyer_app_finder_fee_amount": "0"
             },
-            "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323",
+            "id": "1dc28ee2-20f7-4541-8c18-fe39f4c24b87",
             "state": "Created",
             "items": [
                 {
@@ -139,7 +140,7 @@
                         "count": 1
                     },
                     "id": "106",
-                    "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
+                    "fulfillment_id": "badda8fb-10d2-4481-b68b-441c5c92a342"
                 }
             ],
             "billing": {

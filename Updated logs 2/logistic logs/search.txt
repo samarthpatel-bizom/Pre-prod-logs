@@ -1,16 +1,16 @@
 {
     "context": {
-        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+        "transaction_id": "badda8fb-10d2-4481-b68b-441c5c92a342",
         "country": "IND",
         "city": "std:080",
-        "message_id": "7d687de7-429b-411e-90d4-7ee9d7c2ab55",
+        "message_id": "7c277aed-5f54-4b23-b523-c260b57e0f13",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "stagingapigateway.bizom.in/ondc",
         "domain": "nic2004:60232",
         "action": "search",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-09T08:23:19.282Z"
+        "timestamp": "2022-09-10T08:25:38.504Z"
     },
     "message": {
         "intent": {
@@ -41,10 +41,10 @@
             },
             "@ondc/org/payload_details": {
                 "weight": {
-                    "value": "0.34425",
+                    "value": 0.34425,
                     "unit": "Kilogram"
                 },
-                "category": "Packaged Food",
+                "category": "Packaged Foods",
                 "value": {
                     "value": "204.97",
                     "currency": "INR"
@@ -56,17 +56,17 @@
 
 {
     "context": {
-        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+        "transaction_id": "badda8fb-10d2-4481-b68b-441c5c92a342",
         "country": "IND",
         "city": "std:080",
-        "message_id": "7d687de7-429b-411e-90d4-7ee9d7c2ab55",
+        "message_id": "7c277aed-5f54-4b23-b523-c260b57e0f13",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "stagingapigateway.bizom.in/ondc",
         "domain": "nic2004:60232",
         "action": "on_search",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-09T08:23:20.000Z",
+        "timestamp": "2022-09-10T08:25:39.000Z",
         "bpp_id": "uat.grab.in",
         "bpp_uri": "https://uat.grab.in/beckn/bpp/"
     },

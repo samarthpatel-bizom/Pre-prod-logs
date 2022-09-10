@@ -1,0 +1,20 @@
+{
+    "context": {
+        "transaction_id": "b23b17e3-ee0c-46b5-bebf-3954a6363d61",
+        "country": "IND",
+        "bpp_id": "uat.grab.in",
+        "city": "std:080",
+        "message_id": "4b927e58-dd00-4646-9a8c-90652c1a667f",
+        "core_version": "1.0.0",
+        "ttl": "PT30S",
+        "bap_id": "stagingapigateway.bizom.in/ondc",
+        "domain": "nic2004:60232",
+        "bpp_uri": "https://uat.grab.in/beckn/bpp/",
+        "action": "track",
+        "bap_uri": "https://stagingapigateway.bizom.in/ondc",
+        "timestamp": "2022-09-10T08:21:05.708Z"
+    },
+    "message": {
+        "ref_id": "b23b17e3-ee0c-46b5-bebf-3954a6363d61"
+    }
+}

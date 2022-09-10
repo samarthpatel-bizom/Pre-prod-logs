@@ -1,10 +1,10 @@
 {
     "context": {
-        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+        "transaction_id": "badda8fb-10d2-4481-b68b-441c5c92a342",
         "country": "IND",
         "bpp_id": "uat.grab.in",
         "city": "std:080",
-        "message_id": "62a7f1c4-b626-4d20-b867-bcbffea91b83",
+        "message_id": "74c83fbd-6519-4abc-9910-e4f8ac655393",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "stagingapigateway.bizom.in/ondc",
@@ -12,20 +12,21 @@
         "bpp_uri": "https://uat.grab.in/beckn/bpp/",
         "action": "status",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-09T08:52:49.000Z"
+        "timestamp": "2022-09-10T08:52:48.057Z"
     },
     "message": {
-        "order_id": "yIurv1kyFL6y14G+J5hpjA6XrHMTXp4MBqukjug9Ktg="
+        "order_id": "PqC0HWpTIWvSnYsAhEcCa2RbYunxbuRCz9W3KrTcu3M="
     }
 }
 
+
 {
     "context": {
-        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+        "transaction_id": "badda8fb-10d2-4481-b68b-441c5c92a342",
         "bpp_id": "uat.grab.in",
         "country": "IND",
         "city": "std:080",
-        "message_id": "90a6e4cf-2264-4064-aab1-743d9d29f873",
+        "message_id": "1f6b4825-fed8-437a-9265-04d6e38d8199",
         "ttl": "PT30S",
         "core_version": "1.0.0",
         "bap_id": "stagingapigateway.bizom.in/ondc",
@@ -33,7 +34,7 @@
         "bpp_uri": "https://uat.grab.in/beckn/bpp/",
         "action": "on_status",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-09T08:52:49.000Z"
+        "timestamp": "2022-09-10T08:52:48.000Z"
     },
     "message": {
         "order": {
@@ -85,12 +86,9 @@
                             ]
                         }
                     },
-                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+                    "id": "badda8fb-10d2-4481-b68b-441c5c92a342",
                     "type": "Prepaid",
                     "tracking": true,
-                    "tags": {
-                        "@ondc/org/order_ready_to_ship": "Yes"
-                    },
                     "state": {
                         "descriptor": {
                             "code": "Searching for Agent"
@@ -127,11 +125,11 @@
                         "quantity": {
                             "measure": {
                                 "unit": "Kilogram",
-                                "value": "0.34425"
+                                "value": 0.34425
                             },
                             "count": 1
                         },
-                        "category_id": "Packaged Food",
+                        "category_id": "Packaged Foods",
                         "price": {
                             "currency": "INR",
                             "value": "204.97"
@@ -139,18 +137,18 @@
                         "descriptor": {
                             "name": "LuvIt ChocoPops Pack of 1 - 7.65gx45"
                         },
-                        "fulfillment_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510"
+                        "fulfillment_id": "badda8fb-10d2-4481-b68b-441c5c92a342"
                     }
                 ],
                 "order": {
                     "weight": {
                         "unit": "Kilogram",
-                        "value": "0.34425"
+                        "value": 0.34425
                     },
-                    "id": "a76130a2-4aa8-40d5-bf48-9e3a37df6323"
+                    "id": "1dc28ee2-20f7-4541-8c18-fe39f4c24b87"
                 }
             },
-            "id": "yIurv1kyFL6y14G+J5hpjA6XrHMTXp4MBqukjug9Ktg=",
+            "id": "PqC0HWpTIWvSnYsAhEcCa2RbYunxbuRCz9W3KrTcu3M=",
             "items": [
                 {
                     "category_id": "Same Day Delivery",

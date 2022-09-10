@@ -1,10 +1,10 @@
 {
     "context": {
-        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+        "transaction_id": "badda8fb-10d2-4481-b68b-441c5c92a342",
         "bpp_id": "uat.grab.in",
         "country": "IND",
         "city": "std:080",
-        "message_id": "29a0cc02-3cd8-48ba-b873-aec7d9337657",
+        "message_id": "48fd2d86-d303-43aa-98a9-e2546e176f91",
         "ttl": "PT30S",
         "core_version": "1.0.0",
         "bap_id": "stagingapigateway.bizom.in/ondc",
@@ -12,7 +12,7 @@
         "bpp_uri": "https://uat.grab.in/beckn/bpp/",
         "action": "init",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-09T08:23:51.439Z"
+        "timestamp": "2022-09-10T08:25:51.427Z"
     },
     "message": {
         "order": {
@@ -54,7 +54,7 @@
                             "gps": "12.9698066,77.7499632"
                         }
                     },
-                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+                    "id": "badda8fb-10d2-4481-b68b-441c5c92a342",
                     "type": "Prepaid",
                     "tracking": true
                 }
@@ -63,7 +63,7 @@
                 "id": "grab-logistics"
             },
             "payment": {
-                "type": "PRE-FULFILLMENT"
+                "type": "ON-ORDER"
             },
             "items": [
                 {
@@ -81,23 +81,24 @@
                     "name": "74/A Bangalroe",
                     "state": "KARNATAKA"
                 },
-                "updated_at": "2022-09-09T13:53:47",
+                "updated_at": "2022-09-10T13:55:48",
                 "phone": "9898141644",
                 "name": "SamrthPatel",
-                "created_at": "2022-09-09T13:53:47",
+                "created_at": "2022-09-10T13:55:48",
                 "email": "samarth@gmail.com"
             }
         }
     }
 }
 
+
 {
     "context": {
-        "transaction_id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+        "transaction_id": "badda8fb-10d2-4481-b68b-441c5c92a342",
         "bpp_id": "uat.grab.in",
         "country": "IND",
         "city": "std:080",
-        "message_id": "29a0cc02-3cd8-48ba-b873-aec7d9337657",
+        "message_id": "48fd2d86-d303-43aa-98a9-e2546e176f91",
         "ttl": "PT30S",
         "core_version": "1.0.0",
         "bap_id": "stagingapigateway.bizom.in/ondc",
@@ -105,7 +106,7 @@
         "bpp_uri": "https://uat.grab.in/beckn/bpp/",
         "action": "on_init",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-09T08:23:52.000Z"
+        "timestamp": "2022-09-10T08:25:52.000Z"
     },
     "message": {
         "order": {
@@ -147,7 +148,7 @@
                             "gps": "12.9698066,77.7499632"
                         }
                     },
-                    "id": "b2d1681d-f797-4b25-b6c0-62cd333d1510",
+                    "id": "badda8fb-10d2-4481-b68b-441c5c92a342",
                     "type": "Prepaid",
                     "tracking": true
                 }
@@ -156,7 +157,7 @@
                 "id": "grab-logistics"
             },
             "payment": {
-                "type": "PRE-FULFILLMENT"
+                "type": "ON-ORDER"
             },
             "items": [
                 {
@@ -174,10 +175,10 @@
                     "name": "74/A Bangalroe",
                     "state": "KARNATAKA"
                 },
-                "updated_at": "2022-09-09T13:53:47",
+                "updated_at": "2022-09-10T13:55:48",
                 "phone": "9898141644",
                 "name": "SamrthPatel",
-                "created_at": "2022-09-09T13:53:47",
+                "created_at": "2022-09-10T13:55:48",
                 "email": "samarth@gmail.com"
             },
             "quote": {

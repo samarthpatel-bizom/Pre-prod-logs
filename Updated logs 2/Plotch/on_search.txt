@@ -7,9 +7,9 @@
         "core_version": "1.0.0",
         "bap_id": "www.firstforwardondc.com",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "transaction_id": "433881ee-99eb-403e-8927-3ba9be42cd1b",
-        "message_id": "e319fe24-2634-4cfc-a554-4c5fbc202735",
-        "timestamp": "2022-09-09T08:22:59.024Z",
+        "transaction_id": "f0fe62fb-9c38-4d55-861d-238e4f2d9133",
+        "message_id": "5ad3a1db-ca4c-45ad-9f6b-296b12a89f6e",
+        "timestamp": "2022-09-10T08:17:31.502Z",
         "ttl": "PT30S"
     },
     "message": {
@@ -36,11 +36,11 @@
 
 {
     "context": {
-        "transaction_id": "433881ee-99eb-403e-8927-3ba9be42cd1b",
+        "transaction_id": "f0fe62fb-9c38-4d55-861d-238e4f2d9133",
         "country": "IND",
         "bpp_id": "stagingapigateway.bizom.in/ondc",
         "city": "std:080",
-        "message_id": "e319fe24-2634-4cfc-a554-4c5fbc202735",
+        "message_id": "5ad3a1db-ca4c-45ad-9f6b-296b12a89f6e",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "www.firstforwardondc.com",
@@ -48,7 +48,7 @@
         "bpp_uri": "https://stagingapigateway.bizom.in/ondc",
         "action": "on_search",
         "bap_uri": "https://api.plotch.ai/ondc/v1/146622/",
-        "timestamp": "2022-09-09T08:22:59.675Z"
+        "timestamp": "2022-09-10T08:17:33.926Z"
     },
     "message": {
         "catalog": {
@@ -90,10 +90,10 @@
                     "ttl": "P1D",
                     "items": [
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "225.0",
@@ -115,14 +115,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "900.0",
@@ -143,14 +143,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "400.0",
@@ -171,14 +171,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "260.0",
@@ -199,14 +199,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "1300.0",
@@ -227,14 +227,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "435.0",
@@ -255,14 +255,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "450.0",
@@ -283,14 +283,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "600.0",
@@ -311,14 +311,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "720.0",
@@ -339,14 +339,14 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         },
                         {
-                            "@ondc/org/cancellable": true,
+                            "@ondc/org/cancellable": false,
                             "@ondc/org/available_on_cod": true,
                             "@ondc/org/returnable": false,
-                            "category_id": "Packaged Food",
+                            "category_id": "Packaged Foods",
                             "price": {
                                 "currency": "INR",
                                 "maximum_value": "816.0",
@@ -367,7 +367,7 @@
                             "location_id": "3",
                             "fulfillment_id": "1",
                             "tags": {
-                                "veg": "https://bizomcdn.bizom.in/images/veg+symbol.webp"
+                                "veg": "Yes"
                             }
                         }
                     ]
